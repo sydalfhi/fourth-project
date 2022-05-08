@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap");
+span {
+  display: none;
+}
+
+.kebawah {
+  -webkit-animation: kebawah 1.2s ease-out  forwards;
+          animation: kebawah 1.2s ease-out  forwards;
+}
+
+.keatas {
+  -webkit-animation: keatas 1.2s ease-out  forwards;
+          animation: keatas 1.2s ease-out  forwards;
+}
+
+.bawahaja {
+  -webkit-animation: bawahaja 1.2s ease-out  forwards;
+          animation: bawahaja 1.2s ease-out  forwards;
+}
+
+.atasaja {
+  -webkit-animation: atasaja 1.2s ease-out  forwards;
+          animation: atasaja 1.2s ease-out  forwards;
+}
+
+.turun {
+  -webkit-animation: turun 1.2s ease-out  forwards;
+          animation: turun 1.2s ease-out  forwards;
+}
+
+.naik {
+  -webkit-animation: naik 1.2s ease-out  forwards;
+          animation: naik 1.2s ease-out  forwards;
+}
+
+@-webkit-keyframes bawahaja {
+  from {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  to {
+    -webkit-transform: translateY(50px) rotate(0deg);
+            transform: translateY(50px) rotate(0deg);
+  }
+}
+
+@keyframes bawahaja {
+  from {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  to {
+    -webkit-transform: translateY(50px) rotate(0deg);
+            transform: translateY(50px) rotate(0deg);
+  }
+}
+
+@-webkit-keyframes atasaja {
+  from {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+  to {
+    -webkit-transform: translateY(0px) rotate(0deg);
+            transform: translateY(0px) rotate(0deg);
+  }
+}
+
+@keyframes atasaja {
+  from {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+  to {
+    -webkit-transform: translateY(0px) rotate(0deg);
+            transform: translateY(0px) rotate(0deg);
+  }
+}
+
+@-webkit-keyframes kebawah {
+  from {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  to {
+    -webkit-transform: translateY(100px) rotate(360deg);
+            transform: translateY(100px) rotate(360deg);
+  }
+}
+
+@keyframes kebawah {
+  from {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  to {
+    -webkit-transform: translateY(100px) rotate(360deg);
+            transform: translateY(100px) rotate(360deg);
+  }
+}
+
+@-webkit-keyframes keatas {
+  from {
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+  }
+  to {
+    -webkit-transform: translateY(0px) rotate(-360deg);
+            transform: translateY(0px) rotate(-360deg);
+  }
+}
+
+@keyframes keatas {
+  from {
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+  }
+  to {
+    -webkit-transform: translateY(0px) rotate(-360deg);
+            transform: translateY(0px) rotate(-360deg);
+  }
+}
+
+@-webkit-keyframes turun {
+  from {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+  to {
+    -webkit-transform: translateY(0px) rotate(-360deg);
+            transform: translateY(0px) rotate(-360deg);
+  }
+}
+
+@keyframes turun {
+  from {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+  to {
+    -webkit-transform: translateY(0px) rotate(-360deg);
+            transform: translateY(0px) rotate(-360deg);
+  }
+}
+
+@-webkit-keyframes naik {
+  from {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  to {
+    -webkit-transform: translateY(-100px) rotate(360deg);
+            transform: translateY(-100px) rotate(360deg);
+  }
+}
+
+@keyframes naik {
+  from {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  to {
+    -webkit-transform: translateY(-100px) rotate(360deg);
+            transform: translateY(-100px) rotate(360deg);
+  }
+}

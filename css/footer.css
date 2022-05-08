@@ -1,0 +1,14 @@
+footer {
+    background-color: #202020;
+    height: 110px;
+  }
+  
+  footer p {
+    padding: 30px auto 20px;
+    text-align: center;
+    line-height: 110px;
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+  }
+  

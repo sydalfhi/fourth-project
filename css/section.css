@@ -1,0 +1,269 @@
+
+section.firstSection {
+    margin-top: 100px;
+    margin-bottom: 200px;
+  }
+  
+  section.firstSection .main-item-first h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: #67ff0a;
+    margin-bottom: 20px;
+  }
+  
+  section.firstSection .main-item-first h2 {
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+  }
+  
+  section.firstSection .main-item-first p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  
+  section.firstSection .main-item-first .main {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  section.firstSection .main-item-first .cvDownload {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+  }
+  
+  section.firstSection .main-item-second {
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    width: 320px;
+    height: calc(100% - 5px);
+    border-radius: 35px;
+    margin-left: 20px;
+  }
+  
+  section.firstSection .main-item-second img {
+    margin-left: 20px;
+    border-radius: 35px;
+  }
+  
+  section.firstSection .tombol {
+    display: inline-block;
+    width: 120px;
+    background-color: #346c11;
+    padding: 11px 13px;
+  }
+  
+  section.firstSection .tombol .main {
+    margin: 0;
+    padding: 0;
+  }
+  
+  section.secondSection {
+    margin-bottom: 150px;
+  }
+  
+  section.secondSection h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 10px;
+  }
+  
+  section.secondSection h5 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 1.2rem;
+    padding-bottom: 70px;
+  }
+  
+  section.secondSection .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  section.secondSection .row .col-md-4 img {
+    width: 410px;
+    height: 335px;
+    margin: 0 -30px -10px;
+  }
+  
+  section.secondSection .row .col-md-4 h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+  }
+  
+  section.secondSection .row .col-md-4 p {
+    margin-bottom: 5px;
+  }
+  
+  section.secondSection .tombolExplor {
+    background-color: #346c11;
+    color: white;
+    padding: 20px 60px;
+    display: block;
+    margin: 50px auto 0;
+    text-align: center;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  section.thirdSection {
+    margin-bottom: 100px;
+  }
+  
+  section.thirdSection h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 10px;
+  }
+  
+  section.thirdSection h5 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 1.2rem;
+    padding-bottom: 70px;
+  }
+  
+  section.thirdSection .main .kartu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 200px;
+    text-align: center;
+  }
+  
+  section.thirdSection .main .kartu .kartu-header img {
+    border: 8px solid #212121;
+    border-radius: 50%;
+    padding: 8px;
+    width: 180px;
+    aspect-ratio: 1/1;
+  }
+  
+  section.thirdSection .main .kartu .kartu-body h5 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  section.thirdSection .main .kartu .kartu-body p {
+    color: white;
+    font-size: .83rem;
+    margin-top: -70px;
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  section.fourthSection {
+    margin-bottom: 110px;
+    margin: -100px quro 10px;
+    height: 400px;
+    padding: 50px auto;
+  }
+  
+  section.fourthSection h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 10px;
+  }
+  
+  section.fourthSection h5 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 1.2rem;
+    padding-bottom: 50px;
+  }
+  
+  .carousel-indicators {
+    top: 325px;
+    left: -550px;
+  }
+  
+  .carousel-indicators button.active {
+    color: #67ff0a;
+    background-color: #67ff0a;
+  }
+  
+  .carousel-inner {
+    background-color: #000;
+    height: 400px;
+  }
+  
+  .carousel-inner .carousel-item {
+    background-color: #101010;
+    margin-top: 70px;
+    padding-left: 150px;
+    height: 400px;
+  }
+  
+  .carousel-inner .carousel-item img.gambarSlide {
+    margin-top: -50px;
+    z-index: 99;
+    width: 500px;
+    height: 300px;
+    position: relative;
+    z-index: 99999999;
+  }
+  
+  .carousel-inner .carousel-item .main {
+    padding: 30px 30px;
+  }
+  
+  .carousel-inner .carousel-item .main h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+  }
+  
+  .carousel-inner .carousel-item .main p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+  }
+  
+  .fivethSection {
+    margin-top: 300px;
+    margin-bottom: 80px;
+  }
+  
+  .fivethSection h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    padding-bottom: 10px;
+  }
+  
+  .fivethSection h5.anakPertama {
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    padding-bottom: 50px;
+  }
+  

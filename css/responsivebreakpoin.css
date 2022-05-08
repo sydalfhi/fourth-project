@@ -1,0 +1,15 @@
+@media screen and (max-width: 768px) {
+    body .navbar, body section, body footer {
+      display: none;
+    }
+    body h1, body h2, body h3, body h4, body h5, body h6, body p, body a, body img, body .main {
+      display: none;
+    }
+    body span {
+      display: block;
+      font-family: 'Montserrat', sans-serif;
+      color: white;
+      font-weight: 500;
+      margin-top: 45vh;
+    }
+  }
