@@ -10,7 +10,7 @@ body {
     width: 130px;
   }
   
-  body .polygon {
+.polygon {
     position: absolute;
     right: 350px;
     top: 200px;
@@ -21,7 +21,7 @@ body {
             transform: scale(1.08);
   }
   
-  body .Rectangle {
+.Rectangle {
     position: absolute;
     right: 60px;
     -webkit-transform: scale(1.1);

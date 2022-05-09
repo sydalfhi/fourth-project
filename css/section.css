@@ -82,31 +82,25 @@ section.firstSection {
     padding-bottom: 70px;
   }
   
-  section.secondSection .row {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+  
+  section.secondSection div img {
+    width: clamp(350px , 410px ,425px);
+    height: clamp(275x , 330px , 335px);
+    margin: 0 -10px -10px;
   }
   
-  section.secondSection .row .col-md-4 img {
-    width: 410px;
-    height: 335px;
-    margin: 0 -30px -10px;
-  }
-  
-  section.secondSection .row .col-md-4 h4 {
+  section.secondSection div h4 {
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
+    margin-left: 20px;
   }
   
-  section.secondSection .row .col-md-4 p {
+  section.secondSection div p {
     margin-bottom: 5px;
+    margin-left: 20px;
+  }
+  section.secondSection div a {
+    margin-left: 20px;
   }
   
   section.secondSection .tombolExplor {
